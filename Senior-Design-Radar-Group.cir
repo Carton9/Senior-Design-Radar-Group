@@ -1,0 +1,41 @@
+.title KiCad schematic
+R1 Net-_C1-Pad1_ GND1 10k
+R3 Net-_R3-Pad1_ Net-_C11-Pad1_ 8.45k 1%
+R5 Net-_C10-Pad1_ Net-_C11-Pad1_ 7.15k 1%
+R6 GND1 Net-_R6-Pad2_ R
+R8 Net-_C11-Pad2_ Net-_C13-Pad1_ 17.4k 1%
+R10 Net-_C13-Pad1_ Net-_C12-Pad1_ 4.12k 1%
+R9 GND1 Net-_C13-Pad1_ 28k 1%
+R13 Net-_R12-Pad1_ IF_OUT 47k
+R12 Net-_R12-Pad1_ Net-_R11-Pad1_ 1k 1%
+R11 Net-_R11-Pad1_ GND1 1.62k 1%
+C1 Net-_C1-Pad1_ IF_IN 1uf
+R2 Net-_R2-Pad1_ GND1 220
+R4 Net-_C11-Pad1_ GND1 102k 1%
+C10 Net-_C10-Pad1_ GND1 1nf
+C11 Net-_C11-Pad1_ Net-_C11-Pad2_ 1nf
+C12 Net-_C12-Pad1_ GND1 1nf
+J4 IF_OUT GNDA REF AudioJack3
+J5 IF_OUT GNDA Conn_Coaxial
+J6 REF GNDA Conn_Coaxial
+J2 IF_IN GNDA Conn_Coaxial
+J3 REF GNDA Conn_Coaxial
+C4 +3.3VDAC GND 0.1uf
+C7 GND +3.3VDAC 10uf
+U1 Net-_JP3-Pad2_ NC_01 Net-_JP4-Pad1_ GND +3.3VDAC NC_02 Net-_JP5-Pad2_ MISO NLDAC Net-_JP2-Pad2_ +3.3VDAC SCK NSYNC MOSI NRST Net-_JP1-Pad2_ AD5689RxRUZ
+JP3 +3.3VDAC Net-_JP3-Pad2_ Jumper_NO_Small
+JP2 GND Net-_JP2-Pad2_ Jumper_NO_Small
+JP4 Net-_JP4-Pad1_ REF Jumper_NO_Small
+JP5 REF Net-_JP5-Pad2_ Jumper_NO_Small
+JP1 GND Net-_JP1-Pad2_ +3.3VDAC Jumper_3_Bridged12
+J1 +3.3VDAC NSYNC MOSI MISO SCK NRST NLDAC GND Conn_01x08_Male
+C2 V+ V- 0.1uf
+C5 V- V+ 10uf
+C3 V+ V- 0.1uf
+C6 V- V+ 10uf
+C8 V- V+ 1uf
+C9 V- V+ 1uf
+U2 NC_03 NC_04 NC_05 NC_06 Net-_R3-Pad1_ Net-_R2-Pad1_ MCP4017-xxxxLT
+R7 Net-_R6-Pad2_ Net-_C11-Pad2_ R
+C13 Net-_C13-Pad1_ NC_07 1nf
+.end
