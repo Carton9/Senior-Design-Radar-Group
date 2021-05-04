@@ -1,0 +1,696 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R?
+U 1 1 5FD76051
+P 5150 2450
+AR Path="/5FD76051" Ref="R?"  Part="1" 
+AR Path="/5FCFF104/5FD76051" Ref="R15"  Part="1" 
+F 0 "R15" H 5220 2496 50  0000 L CNN
+F 1 "12k 1%" H 5220 2405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 5080 2450 50  0001 C CNN
+F 3 "~" H 5150 2450 50  0001 C CNN
+	1    5150 2450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FD76057
+P 6150 1250
+AR Path="/5FD76057" Ref="R?"  Part="1" 
+AR Path="/5FCFF104/5FD76057" Ref="R17"  Part="1" 
+F 0 "R17" V 6250 1300 50  0000 C CNN
+F 1 "16k 1%" V 6050 1250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 6080 1250 50  0001 C CNN
+F 3 "~" H 6150 1250 50  0001 C CNN
+	1    6150 1250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FD7605D
+P 7400 1250
+AR Path="/5FD7605D" Ref="R?"  Part="1" 
+AR Path="/5FCFF104/5FD7605D" Ref="R19"  Part="1" 
+F 0 "R19" V 7500 1250 50  0000 C CNN
+F 1 "3.9k 1%" V 7300 1250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 7330 1250 50  0001 C CNN
+F 3 "~" H 7400 1250 50  0001 C CNN
+	1    7400 1250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FD76063
+P 7150 1550
+AR Path="/5FD76063" Ref="R?"  Part="1" 
+AR Path="/5FCFF104/5FD76063" Ref="R18"  Part="1" 
+F 0 "R18" H 7080 1504 50  0000 R CNN
+F 1 "27k 1%" H 7080 1595 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 7080 1550 50  0001 C CNN
+F 3 "~" H 7150 1550 50  0001 C CNN
+	1    7150 1550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FD76069
+P 9950 1350
+AR Path="/5FD76069" Ref="R?"  Part="1" 
+AR Path="/5FCFF104/5FD76069" Ref="R22"  Part="1" 
+F 0 "R22" V 10157 1350 50  0000 C CNN
+F 1 "47k" V 10066 1350 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 9880 1350 50  0001 C CNN
+F 3 "~" H 9950 1350 50  0001 C CNN
+	1    9950 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FD7606F
+P 8900 1700
+AR Path="/5FD7606F" Ref="R?"  Part="1" 
+AR Path="/5FCFF104/5FD7606F" Ref="R21"  Part="1" 
+F 0 "R21" V 9107 1700 50  0000 C CNN
+F 1 "1k 1%" V 9016 1700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 8830 1700 50  0001 C CNN
+F 3 "~" H 8900 1700 50  0001 C CNN
+	1    8900 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FD76075
+P 8350 1900
+AR Path="/5FD76075" Ref="R?"  Part="1" 
+AR Path="/5FCFF104/5FD76075" Ref="R20"  Part="1" 
+F 0 "R20" H 8420 1946 50  0000 L CNN
+F 1 "1k 1%" H 8420 1855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 8280 1900 50  0001 C CNN
+F 3 "~" H 8350 1900 50  0001 C CNN
+	1    8350 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5FD7608A
+P 8100 1550
+AR Path="/5FD7608A" Ref="C?"  Part="1" 
+AR Path="/5FCFF104/5FD7608A" Ref="C15"  Part="1" 
+F 0 "C15" H 8192 1596 50  0000 L CNN
+F 1 "1nf" H 8192 1505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8100 1550 50  0001 C CNN
+F 3 "~" H 8100 1550 50  0001 C CNN
+	1    8100 1550
+	1    0    0    -1  
+$EndComp
+Connection ~ 7150 1250
+Connection ~ 9600 1350
+Wire Wire Line
+	9800 1350 9600 1350
+$Comp
+L Device:R R?
+U 1 1 5FD760FB
+P 5650 1700
+AR Path="/5FD760FB" Ref="R?"  Part="1" 
+AR Path="/5FCFF104/5FD760FB" Ref="R16"  Part="1" 
+F 0 "R16" H 5720 1746 50  0000 L CNN
+F 1 "1k 1%" H 5720 1655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 5580 1700 50  0001 C CNN
+F 3 "~" H 5650 1700 50  0001 C CNN
+	1    5650 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5950 1700 5950 1250
+Connection ~ 5950 1250
+Wire Wire Line
+	5150 1700 5500 1700
+$Comp
+L power:GND1 #PWR?
+U 1 1 5FD76106
+P 4950 2100
+AR Path="/5FD76106" Ref="#PWR?"  Part="1" 
+AR Path="/5FCFF104/5FD76106" Ref="#PWR0133"  Part="1" 
+F 0 "#PWR0133" H 4950 1850 50  0001 C CNN
+F 1 "GND1" H 4955 1927 50  0000 C CNN
+F 2 "" H 4950 2100 50  0001 C CNN
+F 3 "" H 4950 2100 50  0001 C CNN
+	1    4950 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR?
+U 1 1 5FD7610C
+P 5150 2650
+AR Path="/5FD7610C" Ref="#PWR?"  Part="1" 
+AR Path="/5FCFF104/5FD7610C" Ref="#PWR0134"  Part="1" 
+F 0 "#PWR0134" H 5150 2400 50  0001 C CNN
+F 1 "GND1" H 5155 2477 50  0000 C CNN
+F 2 "" H 5150 2650 50  0001 C CNN
+F 3 "" H 5150 2650 50  0001 C CNN
+	1    5150 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 2600 5150 2650
+Wire Wire Line
+	7150 1400 7150 1250
+Wire Wire Line
+	8100 1250 8100 1450
+$Comp
+L power:GND1 #PWR?
+U 1 1 5FD76118
+P 7150 2100
+AR Path="/5FD76118" Ref="#PWR?"  Part="1" 
+AR Path="/5FCFF104/5FD76118" Ref="#PWR0135"  Part="1" 
+F 0 "#PWR0135" H 7150 1850 50  0001 C CNN
+F 1 "GND1" H 7155 1927 50  0000 C CNN
+F 2 "" H 7150 2100 50  0001 C CNN
+F 3 "" H 7150 2100 50  0001 C CNN
+	1    7150 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR?
+U 1 1 5FD7611E
+P 8100 2100
+AR Path="/5FD7611E" Ref="#PWR?"  Part="1" 
+AR Path="/5FCFF104/5FD7611E" Ref="#PWR0136"  Part="1" 
+F 0 "#PWR0136" H 8100 1850 50  0001 C CNN
+F 1 "GND1" H 8105 1927 50  0000 C CNN
+F 2 "" H 8100 2100 50  0001 C CNN
+F 3 "" H 8100 2100 50  0001 C CNN
+	1    8100 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 1650 8100 2100
+Wire Wire Line
+	8350 1700 8350 1450
+Wire Wire Line
+	8350 1750 8350 1700
+Connection ~ 8350 1700
+Wire Wire Line
+	8350 1700 8750 1700
+$Comp
+L Device:C_Small C?
+U 1 1 5FD76133
+P 8450 650
+AR Path="/5FD76133" Ref="C?"  Part="1" 
+AR Path="/5FCFF104/5FD76133" Ref="C16"  Part="1" 
+F 0 "C16" V 8550 650 50  0000 C CNN
+F 1 "1nf" V 8400 800 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8450 650 50  0001 C CNN
+F 3 "~" H 8450 650 50  0001 C CNN
+	1    8450 650 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8350 650  7150 650 
+$Comp
+L Amplifier_Operational:OPA2156xD U?
+U 2 1 5FD76143
+P 8850 1350
+AR Path="/5FD76143" Ref="U?"  Part="2" 
+AR Path="/5FCFF104/5FD76143" Ref="U7"  Part="2" 
+F 0 "U7" H 9050 1600 50  0000 C CNN
+F 1 "OPA2156xD" H 9050 1500 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8950 1350 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/opa2156.pdf" H 9100 1500 50  0001 C CNN
+	2    8850 1350
+	1    0    0    -1  
+$EndComp
+Connection ~ 4950 1150
+Wire Wire Line
+	4950 1300 4950 1150
+$Comp
+L Device:C_Small C?
+U 1 1 5FD7614E
+P 4950 1400
+AR Path="/5FD7614E" Ref="C?"  Part="1" 
+AR Path="/5FCFF104/5FD7614E" Ref="C13"  Part="1" 
+F 0 "C13" H 4850 1500 50  0000 L CNN
+F 1 "1nf" H 4750 1350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4950 1400 50  0001 C CNN
+F 3 "~" H 4950 1400 50  0001 C CNN
+	1    4950 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FD7615D
+P 4350 1150
+AR Path="/5FD7615D" Ref="R?"  Part="1" 
+AR Path="/5FCFF104/5FD7615D" Ref="R14"  Part="1" 
+F 0 "R14" V 4143 1150 50  0000 C CNN
+F 1 "6.2k 1%" V 4234 1150 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 4280 1150 50  0001 C CNN
+F 3 "~" H 4350 1150 50  0001 C CNN
+	1    4350 1150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FD76163
+P 3100 1100
+AR Path="/5FD76163" Ref="R?"  Part="1" 
+AR Path="/5FCFF104/5FD76163" Ref="R12"  Part="1" 
+F 0 "R12" V 3307 1100 50  0000 C CNN
+F 1 "16k 1%" V 3216 1100 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 3030 1100 50  0001 C CNN
+F 3 "~" H 3100 1100 50  0001 C CNN
+	1    3100 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5350 1350 5150 1350
+Wire Wire Line
+	5150 1350 5150 1700
+Connection ~ 5150 1700
+Wire Wire Line
+	4950 1150 5350 1150
+$Comp
+L Amplifier_Operational:OPA2156xD U?
+U 1 1 5FD7616E
+P 5650 1250
+AR Path="/5FD7616E" Ref="U?"  Part="1" 
+AR Path="/5FCFF104/5FD7616E" Ref="U7"  Part="1" 
+F 0 "U7" H 5650 1617 50  0000 C CNN
+F 1 "OPA2156xD" H 5650 1526 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5750 1250 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/opa2156.pdf" H 5900 1400 50  0001 C CNN
+	1    5650 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 1500 4950 2100
+Wire Wire Line
+	8100 1250 8550 1250
+Wire Wire Line
+	8350 1450 8550 1450
+Wire Wire Line
+	9150 1350 9600 1350
+Text HLabel 2700 1100 0    50   Input ~ 0
+SIGNAL_IN
+Text HLabel 10100 1350 2    50   Output ~ 0
+Signal_OUT
+$Comp
+L power:GND1 #PWR?
+U 1 1 5FD76129
+P 8350 2500
+AR Path="/5FD76129" Ref="#PWR?"  Part="1" 
+AR Path="/5FCFF104/5FD76129" Ref="#PWR0138"  Part="1" 
+F 0 "#PWR0138" H 8350 2250 50  0001 C CNN
+F 1 "GND1" H 8355 2327 50  0000 C CNN
+F 2 "" H 8350 2500 50  0001 C CNN
+F 3 "" H 8350 2500 50  0001 C CNN
+	1    8350 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 1700 9600 1350
+Wire Wire Line
+	9050 1700 9600 1700
+Wire Wire Line
+	10150 3400 10350 3400
+Connection ~ 10150 3400
+Wire Wire Line
+	10150 3450 10150 3400
+Wire Wire Line
+	10150 3100 10350 3100
+Connection ~ 10150 3100
+Wire Wire Line
+	10150 3000 10150 3100
+Text GLabel 10150 3000 1    50   Input ~ 0
+Vio
+$Comp
+L power:GND #PWR?
+U 1 1 5FA4C51F
+P 10150 3450
+AR Path="/5FA4C51F" Ref="#PWR?"  Part="1" 
+AR Path="/5FCFF104/5FA4C51F" Ref="#PWR0139"  Part="1" 
+F 0 "#PWR0139" H 10150 3200 50  0001 C CNN
+F 1 "GND" H 10155 3277 50  0000 C CNN
+F 2 "" H 10150 3450 50  0001 C CNN
+F 3 "" H 10150 3450 50  0001 C CNN
+	1    10150 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 3550 8850 3550
+Wire Wire Line
+	9450 3300 9450 3550
+Wire Wire Line
+	9450 2950 8850 2950
+Wire Wire Line
+	9450 3200 9450 2950
+$Comp
+L Amplifier_Operational:OPA2156xD U?
+U 3 1 5FA4C529
+P 8850 3250
+AR Path="/5FA4C529" Ref="U?"  Part="3" 
+AR Path="/5FCFF104/5FA4C529" Ref="U7"  Part="3" 
+F 0 "U7" H 8908 3296 50  0000 L CNN
+F 1 "OPA2156xD" H 8908 3205 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8950 3250 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/opa2156.pdf" H 9100 3400 50  0001 C CNN
+	3    8850 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 3350 9800 3400
+Wire Wire Line
+	9800 3400 10000 3400
+Wire Wire Line
+	10000 3400 10150 3400
+Connection ~ 10000 3400
+Wire Wire Line
+	10000 3350 10000 3400
+Wire Wire Line
+	10350 3400 10350 3350
+Connection ~ 9800 3400
+Wire Wire Line
+	9550 3400 9800 3400
+Wire Wire Line
+	9550 3300 9550 3400
+Wire Wire Line
+	9450 3300 9550 3300
+Wire Wire Line
+	9800 3150 9800 3100
+Wire Wire Line
+	9800 3100 10000 3100
+Wire Wire Line
+	10000 3100 10150 3100
+Connection ~ 10000 3100
+Wire Wire Line
+	10000 3150 10000 3100
+Wire Wire Line
+	10350 3100 10350 3150
+Connection ~ 9800 3100
+Wire Wire Line
+	9550 3100 9800 3100
+Wire Wire Line
+	9550 3200 9550 3100
+Wire Wire Line
+	9450 3200 9550 3200
+$Comp
+L Device:C_Small C?
+U 1 1 5FA4C543
+P 10350 3250
+AR Path="/5FA4C543" Ref="C?"  Part="1" 
+AR Path="/5FCFF104/5FA4C543" Ref="C22"  Part="1" 
+F 0 "C22" V 10121 3250 50  0000 C CNN
+F 1 "1uf" V 10212 3250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 10350 3250 50  0001 C CNN
+F 3 "~" H 10350 3250 50  0001 C CNN
+	1    10350 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5FA4C549
+P 10000 3250
+AR Path="/5FA4C549" Ref="C?"  Part="1" 
+AR Path="/5FCFF104/5FA4C549" Ref="C21"  Part="1" 
+F 0 "C21" V 9771 3250 50  0000 C CNN
+F 1 "10uf" V 9862 3250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 10000 3250 50  0001 C CNN
+F 3 "~" H 10000 3250 50  0001 C CNN
+	1    10000 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5FA4C54F
+P 9800 3250
+AR Path="/5FA4C54F" Ref="C?"  Part="1" 
+AR Path="/5FCFF104/5FA4C54F" Ref="C20"  Part="1" 
+F 0 "C20" V 9571 3250 50  0000 C CNN
+F 1 "0.1uf" V 9662 3250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9800 3250 50  0001 C CNN
+F 3 "~" H 9800 3250 50  0001 C CNN
+	1    9800 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FAF00C2
+P 3550 1150
+AR Path="/5FAF00C2" Ref="R?"  Part="1" 
+AR Path="/5FCFF104/5FAF00C2" Ref="R29"  Part="1" 
+F 0 "R29" V 3757 1150 50  0000 C CNN
+F 1 "450ohm 1%" V 3666 1150 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 3480 1150 50  0001 C CNN
+F 3 "~" H 3550 1150 50  0001 C CNN
+	1    3550 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FAF62DD
+P 3100 1200
+AR Path="/5FAF62DD" Ref="R?"  Part="1" 
+AR Path="/5FCFF104/5FAF62DD" Ref="R28"  Part="1" 
+F 0 "R28" V 3307 1200 50  0000 C CNN
+F 1 "16k 1%" V 3216 1200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 3030 1200 50  0001 C CNN
+F 3 "~" H 3100 1200 50  0001 C CNN
+	1    3100 1200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3250 1100 3350 1100
+Wire Wire Line
+	3350 1100 3350 1150
+Wire Wire Line
+	3350 1150 3400 1150
+Wire Wire Line
+	3350 1150 3350 1200
+Wire Wire Line
+	3350 1200 3250 1200
+Connection ~ 3350 1150
+Wire Wire Line
+	2950 1100 2900 1100
+Wire Wire Line
+	2900 1100 2900 1200
+Wire Wire Line
+	2900 1200 2950 1200
+Wire Wire Line
+	2900 1100 2700 1100
+Connection ~ 2900 1100
+$Comp
+L power:GND1 #PWR?
+U 1 1 5FD760F5
+P 3950 2100
+AR Path="/5FD760F5" Ref="#PWR?"  Part="1" 
+AR Path="/5FCFF104/5FD760F5" Ref="#PWR0132"  Part="1" 
+F 0 "#PWR0132" H 3950 1850 50  0001 C CNN
+F 1 "GND1" H 3955 1927 50  0000 C CNN
+F 2 "" H 3950 2100 50  0001 C CNN
+F 3 "" H 3950 2100 50  0001 C CNN
+	1    3950 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 1250 3950 1150
+$Comp
+L Device:R R?
+U 1 1 5FD76154
+P 3950 1400
+AR Path="/5FD76154" Ref="R?"  Part="1" 
+AR Path="/5FCFF104/5FD76154" Ref="R13"  Part="1" 
+F 0 "R13" H 4020 1446 50  0000 L CNN
+F 1 "100k 1%" V 3850 1250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 3880 1400 50  0001 C CNN
+F 3 "~" H 3950 1400 50  0001 C CNN
+	1    3950 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FB04100
+P 3950 1750
+AR Path="/5FB04100" Ref="R?"  Part="1" 
+AR Path="/5FCFF104/5FB04100" Ref="R30"  Part="1" 
+F 0 "R30" H 4020 1796 50  0000 L CNN
+F 1 "2k 1%" V 3850 1600 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 3880 1750 50  0001 C CNN
+F 3 "~" H 3950 1750 50  0001 C CNN
+	1    3950 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 1550 3950 1600
+Wire Wire Line
+	3950 1900 3950 2100
+Wire Wire Line
+	3700 1150 3950 1150
+Connection ~ 3950 1150
+Wire Wire Line
+	3950 1150 4200 1150
+Wire Wire Line
+	5300 700  5950 700 
+$Comp
+L Device:C_Small C?
+U 1 1 5FD761A4
+P 5200 700
+AR Path="/5FD761A4" Ref="C?"  Part="1" 
+AR Path="/5FCFF104/5FD761A4" Ref="C14"  Part="1" 
+F 0 "C14" V 5300 700 50  0000 C CNN
+F 1 "1nf" V 5100 700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5200 700 50  0001 C CNN
+F 3 "~" H 5200 700 50  0001 C CNN
+	1    5200 700 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5950 700  5950 1250
+Wire Wire Line
+	5100 700  3950 700 
+Wire Wire Line
+	3950 700  3950 1150
+$Comp
+L Device:R R?
+U 1 1 5FB20C51
+P 4700 1150
+AR Path="/5FB20C51" Ref="R?"  Part="1" 
+AR Path="/5FCFF104/5FB20C51" Ref="R31"  Part="1" 
+F 0 "R31" V 4493 1150 50  0000 C CNN
+F 1 "910ohm 1%" V 4584 1150 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 4630 1150 50  0001 C CNN
+F 3 "~" H 4700 1150 50  0001 C CNN
+	1    4700 1150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5800 1700 5950 1700
+Wire Wire Line
+	4500 1150 4550 1150
+Wire Wire Line
+	4850 1150 4950 1150
+$Comp
+L Device:R R?
+U 1 1 5FB541B7
+P 5150 2100
+AR Path="/5FB541B7" Ref="R?"  Part="1" 
+AR Path="/5FCFF104/5FB541B7" Ref="R32"  Part="1" 
+F 0 "R32" H 5220 2146 50  0000 L CNN
+F 1 "100ohm 1%" V 5050 1900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 5080 2100 50  0001 C CNN
+F 3 "~" H 5150 2100 50  0001 C CNN
+	1    5150 2100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5150 1700 5150 1950
+Wire Wire Line
+	5150 2250 5150 2300
+$Comp
+L Device:R R?
+U 1 1 5FB75A59
+P 6550 1250
+AR Path="/5FB75A59" Ref="R?"  Part="1" 
+AR Path="/5FCFF104/5FB75A59" Ref="R33"  Part="1" 
+F 0 "R33" V 6650 1300 50  0000 C CNN
+F 1 "1.3k 1%" V 6450 1250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 6480 1250 50  0001 C CNN
+F 3 "~" H 6550 1250 50  0001 C CNN
+	1    6550 1250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FB782FC
+P 6900 1250
+AR Path="/5FB782FC" Ref="R?"  Part="1" 
+AR Path="/5FCFF104/5FB782FC" Ref="R34"  Part="1" 
+F 0 "R34" H 6970 1296 50  0000 L CNN
+F 1 "100ohm 1%" V 6800 1050 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 6830 1250 50  0001 C CNN
+F 3 "~" H 6900 1250 50  0001 C CNN
+	1    6900 1250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7050 1250 7150 1250
+Wire Wire Line
+	6750 1250 6700 1250
+Wire Wire Line
+	6400 1250 6300 1250
+Wire Wire Line
+	6000 1250 5950 1250
+$Comp
+L Device:R R?
+U 1 1 5FB9518E
+P 7150 1900
+AR Path="/5FB9518E" Ref="R?"  Part="1" 
+AR Path="/5FCFF104/5FB9518E" Ref="R35"  Part="1" 
+F 0 "R35" H 7220 1946 50  0000 L CNN
+F 1 "1k 1%" H 7220 1855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 7080 1900 50  0001 C CNN
+F 3 "~" H 7150 1900 50  0001 C CNN
+	1    7150 1900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7150 1700 7150 1750
+Wire Wire Line
+	7150 2050 7150 2100
+Wire Wire Line
+	7150 650  7150 1250
+Wire Wire Line
+	8550 650  9600 650 
+Wire Wire Line
+	9600 650  9600 1350
+$Comp
+L Device:R R?
+U 1 1 5FBC5F4A
+P 7850 1250
+AR Path="/5FBC5F4A" Ref="R?"  Part="1" 
+AR Path="/5FCFF104/5FBC5F4A" Ref="R36"  Part="1" 
+F 0 "R36" V 7950 1250 50  0000 C CNN
+F 1 "220ohm 1%" V 7750 1250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 7780 1250 50  0001 C CNN
+F 3 "~" H 7850 1250 50  0001 C CNN
+	1    7850 1250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8000 1250 8100 1250
+Connection ~ 8100 1250
+Wire Wire Line
+	7700 1250 7550 1250
+Wire Wire Line
+	7250 1250 7150 1250
+$Comp
+L Device:R R?
+U 1 1 5FBDBBC3
+P 8350 2250
+AR Path="/5FBDBBC3" Ref="R?"  Part="1" 
+AR Path="/5FCFF104/5FBDBBC3" Ref="R37"  Part="1" 
+F 0 "R37" H 8420 2296 50  0000 L CNN
+F 1 "620ohm 1%" H 8420 2205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 8280 2250 50  0001 C CNN
+F 3 "~" H 8350 2250 50  0001 C CNN
+	1    8350 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 2400 8350 2500
+Wire Wire Line
+	8350 2100 8350 2050
+$EndSCHEMATC

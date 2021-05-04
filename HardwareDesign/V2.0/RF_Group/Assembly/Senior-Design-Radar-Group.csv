@@ -1,0 +1,20 @@
+Comment,Designator,Footprint,LCSC
+0.1uf,"C10,C17",Capacitor_SMD:C_0805_2012Metric,C49678
+10uf,"C11,C18",Capacitor_SMD:C_0805_2012Metric,C15850
+1uf,"C9,C12,C19",Capacitor_SMD:C_0805_2012Metric,C28323
+1nf,C4,Capacitor_SMD:C_0805_2012Metric,C46653
+330pF,C5,Capacitor_SMD:C_0805_2012Metric,C51207
+2.2nF,C6,Capacitor_SMD:C_0805_2012Metric,C28260
+150pF,C7,Capacitor_SMD:C_0805_2012Metric,C1716
+680ohm 1%,"R1,R23",Capacitor_SMD:C_0805_2012Metric,C17798
+220,R11,Capacitor_SMD:C_0805_2012Metric,C17557
+11k 1%,"R2,R3",Capacitor_SMD:C_0805_2012Metric,C17429
+430ohm 1%,R24,Capacitor_SMD:C_0805_2012Metric,C42000
+2k 1%,"R25,R26",Capacitor_SMD:C_0805_2012Metric,C17604
+820ohm 1%,R27,Capacitor_SMD:C_0805_2012Metric,C17837
+16k 1%,R4,Capacitor_SMD:C_0805_2012Metric,C17490
+13k 1%,"R5,R6",Capacitor_SMD:C_0805_2012Metric,C17455
+12k 1%,R7,Capacitor_SMD:C_0805_2012Metric,C17444
+300ohm,R8,Capacitor_SMD:C_0805_2012Metric,
+10k,R9,Capacitor_SMD:C_0805_2012Metric,C17414
+OPA2211AIDDAR,"U1,U5,U6",Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,C46316

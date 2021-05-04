@@ -1,0 +1,181 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 4600 2150 1000 350 
+U 602EEBD6
+F0 "LPF" 50
+F1 "LPF.sch" 50
+F2 "SIGNAL_OUT" O R 5600 2250 50 
+F3 "Signal_IN" I L 4600 2250 50 
+F4 "Reference" I L 4600 2400 50 
+$EndSheet
+$Sheet
+S 3050 2150 1050 350 
+U 602F3628
+F0 "SignalConditioner" 50
+F1 "SignalConditioner.sch" 50
+F2 "Reference" O R 4100 2400 50 
+F3 "Signal_OUT" O R 4100 2250 50 
+F4 "Signal_IN" I L 3050 2250 50 
+$EndSheet
+$Sheet
+S 6050 2150 1000 350 
+U 602ED3F4
+F0 "PostAmp" 50
+F1 "PostAmp.sch" 50
+F2 "SIGNAL_OUT" O R 7050 2250 50 
+F3 "SIGNAL_IN" I L 6050 2250 50 
+F4 "Reference" I L 6050 2400 50 
+$EndSheet
+$Comp
+L Connector:Conn_01x03_Male J2
+U 1 1 60302807
+P 7750 2250
+F 0 "J2" H 7722 2182 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 7722 2273 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 7750 2250 50  0001 C CNN
+F 3 "~" H 7750 2250 50  0001 C CNN
+	1    7750 2250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7050 2250 7550 2250
+$Comp
+L Connector:Conn_Coaxial J1
+U 1 1 602ED742
+P 2500 2250
+F 0 "J1" H 2600 2225 50  0000 L CNN
+F 1 "Conn_Coaxial" H 2600 2134 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount" H 2500 2250 50  0001 C CNN
+F 3 " ~" H 2500 2250 50  0001 C CNN
+	1    2500 2250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 602EE94D
+P 2500 2550
+F 0 "#PWR0101" H 2500 2300 50  0001 C CNN
+F 1 "GND" H 2505 2377 50  0000 C CNN
+F 2 "" H 2500 2550 50  0001 C CNN
+F 3 "" H 2500 2550 50  0001 C CNN
+	1    2500 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 2450 2500 2550
+Wire Wire Line
+	2700 2250 3050 2250
+$Comp
+L power:GND #PWR0102
+U 1 1 602EF6CE
+P 7500 2450
+F 0 "#PWR0102" H 7500 2200 50  0001 C CNN
+F 1 "GND" H 7505 2277 50  0000 C CNN
+F 2 "" H 7500 2450 50  0001 C CNN
+F 3 "" H 7500 2450 50  0001 C CNN
+	1    7500 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 2350 7500 2450
+Wire Wire Line
+	7550 2350 7500 2350
+$Comp
+L power:VCC #PWR0103
+U 1 1 602EF904
+P 7500 2100
+F 0 "#PWR0103" H 7500 1950 50  0001 C CNN
+F 1 "VCC" H 7515 2273 50  0000 C CNN
+F 2 "" H 7500 2100 50  0001 C CNN
+F 3 "" H 7500 2100 50  0001 C CNN
+	1    7500 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 2100 7500 2150
+Wire Wire Line
+	7500 2150 7550 2150
+$Comp
+L Device:Jumper_NC_Small JP?
+U 1 1 602F6463
+P 4400 2250
+F 0 "JP?" H 4400 2371 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 4400 2371 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 4400 2250 50  0001 C CNN
+F 3 "~" H 4400 2250 50  0001 C CNN
+	1    4400 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NC_Small JP?
+U 1 1 602FBBB5
+P 4400 2400
+F 0 "JP?" H 4400 2521 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 4400 2521 50  0001 C CNN
+F 2 "" H 4400 2400 50  0001 C CNN
+F 3 "~" H 4400 2400 50  0001 C CNN
+	1    4400 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Jumper_NC_Small JP?
+U 1 1 602FE8B3
+P 5900 2400
+F 0 "JP?" H 5900 2521 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 5900 2521 50  0001 C CNN
+F 2 "" H 5900 2400 50  0001 C CNN
+F 3 "~" H 5900 2400 50  0001 C CNN
+	1    5900 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Jumper_NC_Small JP?
+U 1 1 602FEEF0
+P 5900 2250
+F 0 "JP?" H 5900 2371 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 5900 2371 50  0001 C CNN
+F 2 "" H 5900 2250 50  0001 C CNN
+F 3 "~" H 5900 2250 50  0001 C CNN
+	1    5900 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 2250 5800 2250
+Wire Wire Line
+	6050 2250 6000 2250
+Wire Wire Line
+	6050 2400 6000 2400
+Wire Wire Line
+	5800 2400 5700 2400
+Wire Wire Line
+	5700 2400 5700 2600
+Wire Wire Line
+	5700 2600 4250 2600
+Wire Wire Line
+	4250 2600 4250 2400
+Wire Wire Line
+	4250 2400 4300 2400
+Wire Wire Line
+	4100 2400 4250 2400
+Connection ~ 4250 2400
+Wire Wire Line
+	4500 2400 4600 2400
+Wire Wire Line
+	4500 2250 4600 2250
+Wire Wire Line
+	4300 2250 4100 2250
+$EndSCHEMATC

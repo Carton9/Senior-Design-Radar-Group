@@ -1,0 +1,43 @@
+Comment,Designator,Footprint,LCSC
+100uf,"C1,C3",Capacitor_THT:CP_Radial_D6.3mm_P2.50mm,
+0.1uf,"C10,C17,C20",Capacitor_SMD:C_0805_2012Metric,C49678
+10uf,"C11,C18,C21",Capacitor_SMD:C_0805_2012Metric,C15850
+1uf,"C8,C9,C12,C19,C22",Capacitor_SMD:C_0805_2012Metric,C28323
+1nf,"C4,C13,C14,C15,C16",Capacitor_SMD:C_0805_2012Metric,C46653
+330pF,C5,Capacitor_SMD:C_0805_2012Metric,C51207
+2.2nF,C6,Capacitor_SMD:C_0805_2012Metric,C28260
+150pF,C7,Capacitor_SMD:C_0805_2012Metric,C1716
+BAS316,"D2,D3",Diode_SMD:D_SOD-323,C85083
+LED,DEBUG,LED_SMD:LED_0805_2012Metric,
+LED,FFT,LED_SMD:LED_0805_2012Metric,
+Conn_Coaxial,J2,Connector_Coaxial:SMA_Amphenol_132289_EdgeMount,
+Conn_Coaxial,"J3,J4,J6,J8",Connector_Coaxial:SMA_Wurth_60312002114503_Vertical,
+Conn_01x04,J7,"TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal",
+LED,Power,LED_SMD:LED_0805_2012Metric,
+680ohm 1%,"R1,R23",Capacitor_SMD:C_0805_2012Metric,C17798
+220,"R10,R11",Capacitor_SMD:C_0805_2012Metric,C17557
+100k 1%,R13,Capacitor_SMD:C_0805_2012Metric,C17407
+6.2k 1%,R14,Capacitor_SMD:C_0805_2012Metric,C17767
+27k 1%,R18,Capacitor_SMD:C_0805_2012Metric,C17593
+3.9k 1%,R19,Capacitor_SMD:C_0805_2012Metric,C17614
+11k 1%,"R2,R3",Capacitor_SMD:C_0805_2012Metric,C17429
+1k 1%,"R16,R20,R21,R35",Capacitor_SMD:C_0805_2012Metric,C17513
+47k,R22,Capacitor_SMD:C_0805_2012Metric,C17713
+430ohm 1%,R24,Capacitor_SMD:C_0805_2012Metric,C42000
+820ohm 1%,R27,Capacitor_SMD:C_0805_2012Metric,C17837
+450ohm 1%,R29,Capacitor_SMD:C_0805_2012Metric,C17710
+910ohm 1%,R31,Capacitor_SMD:C_0805_2012Metric,C17865
+100ohm 1%,"R32,R34",Capacitor_SMD:C_0805_2012Metric,C17408
+1.3k 1%,R33,Capacitor_SMD:C_0805_2012Metric,C17384
+220ohm 1%,R36,Capacitor_SMD:C_0805_2012Metric,C17557
+620ohm 1%,R37,Capacitor_SMD:C_0805_2012Metric,C17782
+2k 1%,"R25,R26,R30,R38,R39,R40,R41",Capacitor_SMD:C_0805_2012Metric,C17604
+16k 1%,"R4,R12,R17,R28",Capacitor_SMD:C_0805_2012Metric,C17490
+13k 1%,"R5,R6",Capacitor_SMD:C_0805_2012Metric,C17455
+12k 1%,"R7,R15",Capacitor_SMD:C_0805_2012Metric,C17444
+10k,"R8,R9",Capacitor_SMD:C_0805_2012Metric,C17414
+R_POT,"RV1,RV2",Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical,
+LED,Reading,LED_SMD:LED_0805_2012Metric,
+Teensy4.0,U1,teensy:Teensy40,
+LM1117-3.3,U2,Package_TO_SOT_SMD:SOT-223-3_TabPin2,C23984
+OPA2156xD,"U5,U6,U7",Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,C46316

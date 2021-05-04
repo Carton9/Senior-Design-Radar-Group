@@ -1,0 +1,86 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MiniCircuit:CVCO55CC-2328-2536 U1
+U 1 1 602E0E5C
+P 7200 3150
+F 0 "U1" H 7275 3475 50  0000 C CNN
+F 1 "CVCO55CC-2328-2536" H 7275 3384 50  0000 C CNN
+F 2 "MiniCircuit:CVCO55CC-2328-2536" H 7050 3350 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/94/CVCO55CC-2328-2536-218944.pdf" H 7050 3350 50  0001 C CNN
+	1    7200 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 602E0FB8
+P 6750 3450
+F 0 "#PWR0101" H 6750 3200 50  0001 C CNN
+F 1 "GND" H 6755 3277 50  0000 C CNN
+F 2 "" H 6750 3450 50  0001 C CNN
+F 3 "" H 6750 3450 50  0001 C CNN
+	1    6750 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 3250 6750 3250
+$Comp
+L Connector:Conn_Coaxial J2
+U 1 1 602EA1F3
+P 8000 3150
+F 0 "J2" H 8100 3125 50  0000 L CNN
+F 1 "Conn_Coaxial" H 8100 3034 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount" H 8000 3150 50  0001 C CNN
+F 3 " ~" H 8000 3150 50  0001 C CNN
+	1    8000 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 3150 7800 3150
+$Comp
+L power:GND #PWR0102
+U 1 1 602EB485
+P 8000 3450
+F 0 "#PWR0102" H 8000 3200 50  0001 C CNN
+F 1 "GND" H 8005 3277 50  0000 C CNN
+F 2 "" H 8000 3450 50  0001 C CNN
+F 3 "" H 8000 3450 50  0001 C CNN
+	1    8000 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 3350 8000 3450
+Wire Wire Line
+	6750 3250 6750 3450
+$Comp
+L Connector_Generic:Conn_01x03 J1
+U 1 1 602EC147
+P 6450 3150
+F 0 "J1" H 6368 2825 50  0000 C CNN
+F 1 "Conn_01x03" H 6368 2916 50  0000 C CNN
+F 2 "" H 6450 3150 50  0001 C CNN
+F 3 "~" H 6450 3150 50  0001 C CNN
+	1    6450 3150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6650 3250 6750 3250
+Connection ~ 6750 3250
+Wire Wire Line
+	6650 3150 6900 3150
+Wire Wire Line
+	6650 3050 6900 3050
+$EndSCHEMATC

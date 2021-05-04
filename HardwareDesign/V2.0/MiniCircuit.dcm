@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADE-3G+
+F https://www.mouser.com/datasheet/2/1030/ADE-3G_2b-1773519.pdf
+$ENDCMP
+#
+$CMP CVCO55CC-2328-2536
+F https://www.mouser.com/datasheet/2/94/CVCO55CC-2328-2536-218944.pdf
+$ENDCMP
+#
+#End Doc Library

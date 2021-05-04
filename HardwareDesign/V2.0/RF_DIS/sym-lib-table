@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name MiniCircuit)(type Legacy)(uri /home/c/RemoteProject/KiCads/Senior-Design-Radar-Group/V2.0/MiniCircuit.lib)(options "")(descr ""))
+  (lib (name Senior-Design-Radar-Group-rescue)(type Legacy)(uri ${KIPRJMOD}/Senior-Design-Radar-Group-rescue.lib)(options "")(descr ""))
+)
